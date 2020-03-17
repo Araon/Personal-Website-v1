@@ -1,0 +1,11 @@
+* {
+   padding: 0px 0px;
+   margin: 0px 0px;
+   text-decoration: none;
+   font-family: fantasy;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #42466a;
+}
