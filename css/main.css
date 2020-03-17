@@ -86,22 +86,22 @@ section p
 
 section#home 
 {
-    background: url(/images/home.png) no-repeat center center/cover;
+    background: url("../images/home.png") no-repeat center center/cover;
 }
   
   section#about 
   {
-    background: url(/images/about.jpg) no-repeat center center/cover;
+    background: url("../images/about.jpg") no-repeat center center/cover;
 }
   
   section#join
 {
-    background: url(/images/Join.jpg) no-repeat center center/cover;
+    background: url("../images/Join.jpg") no-repeat center center/cover;
 }
   
   section#contact 
 {
-    background: url(/images/contact.jpg) no-repeat center center/cover;
+    background: url("../images/contact.jpg") no-repeat center center/cover;
 }
 
 .button
