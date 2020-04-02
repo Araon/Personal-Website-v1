@@ -1,4 +1,5 @@
 * {
+    /*resetting all the stuff*/
    padding: 0;
    margin: 0;
 }
@@ -86,23 +87,64 @@ section p
 
 section#home 
 {
-    background: url("../images/home.png") no-repeat center center/cover;
+    background: url(/images/home.png) no-repeat center center/cover;
+    background-color: brown;
+    font-family: 'Montserrat', sans-serif;
 }
-  
-  section#about 
-  {
-    background: url("../images/about.jpg") no-repeat center center/cover;
-}
-  
-  section#join
+
+section#home h1
 {
-    background: url("../images/Join.jpg") no-repeat center center/cover;
+    font-size: 150px;
+}
+
+
+
+
+  
+section#about 
+{
+    background: url(/images/about.jpg) no-repeat center center/cover;
+    background-color:rgb(42, 44, 165);
+    text-align: center;
 }
   
-  section#contact 
+section#join
 {
-    background: url("../images/contact.jpg") no-repeat center center/cover;
+    background: url(/images/join.jpg) no-repeat center center/cover;
+    background-color: rgb(42, 165, 52);
 }
+  
+section#contact 
+{
+    background: url(/images/contact.jpg) no-repeat center center/cover;
+    background-color: rgb(165, 42, 93);
+    display: flex;
+}
+
+
+
+section#contact li
+{
+    list-style: none;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 10px;
+    padding: 25px 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .1s;
+
+}
+
+section#contact li:hover
+{
+    color: #292929;
+    border: 1px solid #292929;
+    transition: .1s;
+
+}
+
 
 .button
 {
@@ -124,3 +166,16 @@ section#home
     text-decoration: none;
     color: white;
 }
+
+.lead1
+{
+    margin-right: 25%;
+    margin-left: 25%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+
+
+
