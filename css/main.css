@@ -88,7 +88,7 @@ section p
 
 section#home 
 {
-    background: url(/images/home.png) no-repeat center center/cover;
+    background: url("../images/home.png") no-repeat center center/cover;
     background-color: brown;
     font-family: 'Montserrat', sans-serif;
 }
@@ -104,20 +104,20 @@ section#home h1
   
 section#about 
 {
-    background: url(/images/about.jpg) no-repeat center center/cover;
+    background: url("../images/about.jpg") no-repeat center center/cover;
     background-color:rgb(42, 44, 165);
     text-align: center;
 }
   
 section#join
 {
-    background: url(/images/join.jpg) no-repeat center center/cover;
+    background: url("../images/join.jpg") no-repeat center center/cover;
     background-color: rgb(42, 165, 52);
 }
   
 section#contact 
 {
-    background: url(/images/contact.jpg) no-repeat center center/cover;
+    background: url("../images/contact.jpg") no-repeat center center/cover;
     background-color: rgb(165, 42, 93);
     display: flex;
 }
